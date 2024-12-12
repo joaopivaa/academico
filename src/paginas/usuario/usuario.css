@@ -1,0 +1,19 @@
+
+.form-profile {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    justify-content: center;
+    gap: 30px;
+}
+
+.foto {
+    margin-left: 40px;
+    width: 90%;
+}
+
+.form-cadastro-usuario {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    column-gap: 50px;
+    row-gap: 15px;
+}
