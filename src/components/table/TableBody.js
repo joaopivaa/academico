@@ -1,7 +1,7 @@
 import React from 'react'
 import RowActions from './RowActions'
 
-const TableBody = ({headers, currentRecords, path}) => {
+const TableBody = ({headers, currentRecords, path, id}) => {
 
   const idField = headers.find(
     (header) => header.nome.toLowerCase() === "id"
